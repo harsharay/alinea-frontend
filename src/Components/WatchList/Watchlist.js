@@ -105,7 +105,7 @@ const Wishlist = ({ userData, popUp, changePopup }) => {
     return (
         <div>
             { popUp && <SignInPopup googleSignIn={googleSignIn} changePopup={changePopup}/>}
-            
+
             <input type="text" value={searchQuery} onChange={handleSearch} className="search"/> 
             {/* {user && <button className="retrieveButton" onClick={handleRetrieve}>Retrieve Data</button>} */}
             <CloseIcon className="closeIconSearchBar" onClick={closeClick}/>

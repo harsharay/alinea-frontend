@@ -163,3 +163,15 @@
     /* identical to box height, or 83% */
     color: #AE42C9;
 }
+
+.addStocksMessage {
+    position: relative;
+    top:450px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 20px;
+    /* identical to box height, or 83% */
+    color: #AE42C9;
+}
