@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/alinea-frontend/static/css/main.703c0c1f.chunk.css",
-    "main.js": "/alinea-frontend/static/js/main.502a9e24.chunk.js",
-    "main.js.map": "/alinea-frontend/static/js/main.502a9e24.chunk.js.map",
+    "main.css": "/alinea-frontend/static/css/main.64e70677.chunk.css",
+    "main.js": "/alinea-frontend/static/js/main.5abacc43.chunk.js",
+    "main.js.map": "/alinea-frontend/static/js/main.5abacc43.chunk.js.map",
     "runtime-main.js": "/alinea-frontend/static/js/runtime-main.a8374d72.js",
     "runtime-main.js.map": "/alinea-frontend/static/js/runtime-main.a8374d72.js.map",
     "static/js/2.094555e0.chunk.js": "/alinea-frontend/static/js/2.094555e0.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.914b8643.chunk.js": "/alinea-frontend/static/js/3.914b8643.chunk.js",
     "static/js/3.914b8643.chunk.js.map": "/alinea-frontend/static/js/3.914b8643.chunk.js.map",
     "index.html": "/alinea-frontend/index.html",
-    "static/css/main.703c0c1f.chunk.css.map": "/alinea-frontend/static/css/main.703c0c1f.chunk.css.map",
+    "static/css/main.64e70677.chunk.css.map": "/alinea-frontend/static/css/main.64e70677.chunk.css.map",
     "static/js/2.094555e0.chunk.js.LICENSE.txt": "/alinea-frontend/static/js/2.094555e0.chunk.js.LICENSE.txt",
     "static/media/CloseIcon.b2ddd2c7.svg": "/alinea-frontend/static/media/CloseIcon.b2ddd2c7.svg",
     "static/media/GoogleLogo.b89ffc1c.svg": "/alinea-frontend/static/media/GoogleLogo.b89ffc1c.svg",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.a8374d72.js",
     "static/js/2.094555e0.chunk.js",
-    "static/css/main.703c0c1f.chunk.css",
-    "static/js/main.502a9e24.chunk.js"
+    "static/css/main.64e70677.chunk.css",
+    "static/js/main.5abacc43.chunk.js"
   ]
 }
