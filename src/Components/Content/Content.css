@@ -1,0 +1,211 @@
+.contentBlock {
+    margin-top: 2px;
+    /* background-color: grey; */
+}
+
+.contentTopBlock {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.signInPopup {
+    position: absolute;
+    width: 1037px;
+    height: 529px;
+    left: 501px;
+    top: 120px;
+    z-index: 10;
+    display: flex;
+    flex-direction: row;
+    /* background-color: #FFFFFF; */
+    border-radius: 25px;
+    border: 1px solid grey;
+}
+
+.popUp-firstBlock {
+    width: 518.5px;
+    background-color: #AE42C9;
+    border-radius: 25px 0 0 25px;
+/* or 38px */
+}
+
+.popUp-firstBlock p {
+    position: absolute;
+    width: 312px;
+    height: 159px;
+    left: 60px;
+    top: 336px;
+    color: white;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 140%;
+}
+
+.popUp-secondBlock {
+    width: 518px;    
+    background-color: #ffffff;
+    border-radius: 0 25px 25px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 200px;
+}
+
+.signInButtonContentPage {
+    position: relative;
+    width: 344px;
+    height: 60px;
+    left: 0px;
+    top: 75px;
+
+    background-color: #FFFFFF;
+    border: 1px solid #E9D6F4;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 0px 2px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 30px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 20px;
+    /* identical to box height, or 83% */
+
+
+    color: #AE42C9;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+    outline: none;
+}
+
+.closeIcon {
+    position: relative;
+    top: 40px;
+    right: 40px;
+    cursor: pointer;
+}
+
+.popularStocksTag {
+    position: relative;
+    width: 333px;
+    height: 38px;
+    left: 103px;
+    top: 38px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 80%;
+    /* or 38px */
+
+
+    color: #000000;
+}
+
+.contentHeaders {
+    position: relative;
+    top: 58px;
+    left: 115px;
+    /* background-color: #000000; */
+    width: 90%;
+}
+
+.companyPTag {
+    position: relative;
+    right: 810px;
+    /* top: 274px; */
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 80%;
+    /* identical to box height, or 20px */
+    color: #000000;
+}
+
+.marketPricePTag {
+    position: relative;
+    left: 693px;
+    top: -50px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 80%;
+    /* identical to box height, or 20px */
+    color: #000000;
+}
+
+.actualContent {
+    position: relative;
+    left: 100px;
+    top: 15px;
+    
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 80%;
+    /* identical to box height, or 20px */
+    color: #000000;
+}
+
+.contentData {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    width: 86.5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.stockName {
+    margin-left: 10px;
+}
+
+.StockPrice {
+    margin-bottom: 10px;
+}
+
+.stockValue {
+    margin-right: 2px;
+    text-align: center;
+}
+
+.priceText {
+    font-size: 18px;
+    line-height: 80%;   
+}
+
+.stockChange {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 80%;
+    /* or 14px */
+
+    text-align: right;
+
+    color: #27AE60;
+}
+
+.stockChangeRed {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 80%;
+    /* or 14px */
+
+    text-align: right;
+
+    color: #EB5757;
+}
