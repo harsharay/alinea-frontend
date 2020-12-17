@@ -4,10 +4,10 @@ Live Demo: https://aqueous-fortress-77369.herokuapp.com/
 
 Backend code: https://github.com/harsharay/alinea-backend
 
-![Website Preview](https://github.com/harsharay/quiz-frontend/blob/master/Home-screen.png)
-![Website Preview](https://github.com/harsharay/quiz-frontend/blob/master/SignedIn-Screen-WatchList.png)
-![Website Preview](https://github.com/harsharay/quiz-frontend/blob/master/SignIn-popup.png)
-![Website Preview](https://github.com/harsharay/quiz-frontend/blob/master/Watchlist-Page.png)
+![Website Preview](https://github.com/harsharay/alinea-frontend/blob/master/Home-screen.png)
+![Website Preview](https://github.com/harsharay/alinea-frontend/blob/master/SignedIn-Screen-WatchList.png)
+![Website Preview](https://github.com/harsharay/alinea-frontend/blob/master/SignIn-popup.png)
+![Website Preview](https://github.com/harsharay/alinea-frontend/blob/master/Watchlist-Page.png)
 
 
 This is a fullstack Website built using REACT and NODE JS. For authentication and storage, FIREBASE & FIRESTORE are used.
