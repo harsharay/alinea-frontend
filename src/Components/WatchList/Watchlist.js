@@ -12,6 +12,8 @@ import { ReactComponent as GoogleLogoSvg } from "../../Icons/GoogleLogo.svg"
 import { firestore,googleSignIn } from "../../Firebase/firebaseFunctions"
 import firebase from "firebase/app";
 
+import SignInPopup from "../SignInPopup/SignInPopup"
+
 
 import "./Watchlist.css"
 
@@ -102,18 +104,8 @@ const Wishlist = ({ userData, popUp, changePopup }) => {
 
     return (
         <div>
-            { popUp &&
-            <div className="signInPopup">
-                <div className="popUp-firstBlock">
-                    <p>Keep Track Of Your Stocks</p>
-                </div>
-                <div className="popUp-secondBlock">
-                    <LogoSvg />
-                    <button className="signInButtonContentPage" onClick={googleSignIn}><span><GoogleLogoSvg /></span>Continue with Google</button>
-                </div>
-                <CloseIcon className="closeIcon" onClick={() => changePopup()}/>
-            </div>
-            }
+            { popUp && <SignInPopup googleSignIn={googleSignIn} changePopup={changePopup}/>}
+            
             <input type="text" value={searchQuery} onChange={handleSearch} className="search"/> 
             {/* {user && <button className="retrieveButton" onClick={handleRetrieve}>Retrieve Data</button>} */}
             <CloseIcon className="closeIconSearchBar" onClick={closeClick}/>

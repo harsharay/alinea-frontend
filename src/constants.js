@@ -1,4 +1,4 @@
-export const SHOW_DATA = `http://localhost:4999/api/showData`
+export const SHOW_DATA = `https://aqueous-beyond-80284.herokuapp.com/api/showData`
 
 
-export const SEARCH_DATA = `http://localhost:4999/api/showSearchData`
+export const SEARCH_DATA = `https://aqueous-beyond-80284.herokuapp.com//api/showSearchData`

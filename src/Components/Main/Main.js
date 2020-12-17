@@ -13,7 +13,6 @@ const Main = () => {
 
     const changePopup = () => {
         setPopUp(!popUp)
-        console.log("Clicked on popupp", popUp)
     }
 
 

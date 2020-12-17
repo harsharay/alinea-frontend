@@ -49,7 +49,6 @@ export const createUserDocument = async (userAuth) => {
           }
       } else {
           return userAuth;
-          // console.log(userAuth)
       }
   }
 }

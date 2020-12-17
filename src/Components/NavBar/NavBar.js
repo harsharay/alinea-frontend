@@ -43,8 +43,8 @@ const NavBar = ({ changePopup, signingIn}) => {
         <div className="navBar">
             <LogoSvg />
             <div className="menuItems">
-                <NavLink to="/" activeClassName="active">Home</NavLink>
-                <NavLink to="/watchList" activeClassName="active">WatchList</NavLink>
+                <NavLink to="/" activeClassName="active" className="navBarHome" exact={true}>Home</NavLink>
+                <NavLink to="/watchList" activeClassName="active" className="navBarHome" exact={true}>WatchList</NavLink>
             </div>
             <div className="signIn">
                 { userData ? <img src={displayPic} alt={auth.displayName} className="profilePicture" onClick={handleSignOut} title="Sign Out"/> : <button className="signInButton" onClick={handleSignInClick}><span><GoogleLogoSvg /></span>Continue with Google</button> }

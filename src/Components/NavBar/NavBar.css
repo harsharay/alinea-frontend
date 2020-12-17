@@ -27,6 +27,11 @@
     text-decoration: none;
 }
 
+.navBarHome {
+    padding: 44px 10px;
+    /* border-bottom: 1px solid rgb(153, 150, 150, 0.1); */
+}
+
 /* .signIn {
     position: fixed;
     right: 50px;
