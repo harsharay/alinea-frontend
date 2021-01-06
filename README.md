@@ -1,9 +1,15 @@
-Live Demo: https://desolate-stream-20642.herokuapp.com/
+Backend code:
 
-![Website Preview](https://github.com/harsharay/ngage/blob/master/Ngage-discussion-platform.png)
+Live Demo: https://aqueous-fortress-77369.herokuapp.com/
 
-A discussion portal where users can create posts and discuss on those posts. Users can get real time updates on the comments of the posts. 
-Developed using React in front-end, Firestore as the database and for authentication.
-Material UI is used for buttons and input fields. Icons are from https://react-icons.github.io/react-icons/
+Backend code: https://github.com/harsharay/alinea-backend
 
-Tech Stack: REACT, FIREBASE, FIRESTORE, Material UI
+![Website Preview](https://github.com/harsharay/alinea-frontend/blob/master/Home-Screen.png)
+![Website Preview](https://github.com/harsharay/alinea-frontend/blob/master/SignedIn-Screen-Watchlist.png)
+![Website Preview](https://github.com/harsharay/alinea-frontend/blob/master/SignIn-popup-Screen.png)
+![Website Preview](https://github.com/harsharay/alinea-frontend/blob/master/Watchlist-page.png)
+
+
+This is a fullstack Website built using REACT and NODE JS. For authentication and storage, FIREBASE & FIRESTORE are used. Few stocks are displayed on the home screen for the user. User can sign-in using GOOGLE. Once signed in, user will be able to add some stocks to their watchlist and can monitor them
+
+Tech Stack: REACT, NODE, FIREBASE, FIRESTORE, MONGO, EXPRESS
